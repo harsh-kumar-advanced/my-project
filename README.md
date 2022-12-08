@@ -1,2 +1,2 @@
 # my-project
-pushing docker to ECR using Github Actions
+pushing docker image to ECR using Github Actions
