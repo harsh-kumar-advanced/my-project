@@ -36,4 +36,6 @@ jobs:
       - name: Tagging build docker with version tag and latest tag
         run: docker tag html-image:v1 $CONTAINER_IMAGES_REGISTRY/innovation/dev/hello-world:devopstraining
       - name: Publishing to Artifactory with version tag and latest tag
+      
+      
         run: docker push $CONTAINER_IMAGES_REGISTRY/innovation/dev/hello-world:devopstraining
